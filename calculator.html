@@ -44,7 +44,7 @@ function Calc() {
     var num1 = parseInt(txt1.value); console.log(typeof num1); console.log(isNaN(num1));
     var num2 = parseInt(txt2.value); console.log(typeof num2); console.log(isNaN(num2));
     if(result == "*") {
-        total.innerHTML = (num1n * num2).toFixed(2);
+        total.innerHTML = (num1 * num2).toFixed(2);
     } else if(result =="/") {
         total.innerHTML = (num1 / num2).toFixed(2); //precise to the tenths place
     } else if(result =="+") {
